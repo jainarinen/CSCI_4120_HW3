@@ -6,4 +6,4 @@ Name: Pusp Raj Bhatt Email: bhattp20@students.ecu.edu
 
 ![Image 1](https://github.com/jainarinen/CSCI_4120_HW3/blob/main/hw3_image1.jpeg)
 
-![Image 2](
+![Image 2](https://github.com/jainarinen/CSCI_4120_HW3/blob/main/hw3_image2.jpeg)
