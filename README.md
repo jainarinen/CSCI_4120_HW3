@@ -37,11 +37,12 @@ HW.head()
 ![Image 1](https://github.com/jainarinen/CSCI_4120_HW3/blob/main/hw3_image1.JPG)
 
 
-#Exc 2
+# Exc 2
 
 To generate the second figure, you must use the linalg function. Your data frame should be converted to a numpy array (for the output). The ones () function will allow you to merge a column of ones with with x, similar to the vstack() function. The linalg function has a variable "rcond=none" that can be used to round small values to 0. The final code is pictured below.
 
-```def do_regression(HW):
+```
+def do_regression(HW):
     # input: the HW's dataset
     # output: a numpy array yielding w=(w0,w1) from linear regression
     
@@ -49,8 +50,8 @@ To generate the second figure, you must use the linalg function. Your data frame
     # vstack merges a column containing only ones with x
     
     return linalg.lstsq(np.array([ones(HW.shape[0]),HW.x]).T,HW['y-x'],rcond=-1)[0]
-   
-    ```
+ ```
     
-    After you run this code, run the self-check cell. This will generate the figure below.
+ After you run this code, run the self-check cell. This will generate the figure below.
+    
 ![Image 2](https://github.com/jainarinen/CSCI_4120_HW3/blob/main/hw3_image2.JPG)
